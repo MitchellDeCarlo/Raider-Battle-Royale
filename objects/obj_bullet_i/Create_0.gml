@@ -1,0 +1,9 @@
+special = 0
+ogscale = image_yscale
+enemy = false
+friend = false
+damage = 0
+remove = false
+alarm[0] = 100 *  room_speed
+player = false
+none = false

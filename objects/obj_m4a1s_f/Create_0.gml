@@ -1,0 +1,14 @@
+ogscale = image_yscale
+flipval = false
+posx = 5
+posy = 10
+image_angle = 0
+point = instance_create_layer(x,y,"Instances",obj_fr_pointer)
+i = 0
+kill = false
+j=0
+fd = 0
+val1 = irandom_range(50,80)
+jval = irandom_range(10,30)
+value = true
+shootvar = false

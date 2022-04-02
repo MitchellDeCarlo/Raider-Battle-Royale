@@ -1,0 +1,6 @@
+draw_self()
+draw_set_font(fnt_stats)
+var c= c_white
+if(keyboard_check(vk_tab) and val != 0){
+	draw_text_transformed_color(x+100,y+5,"T: "+string(val),3,3,0,c,c,c,c,1);
+}
